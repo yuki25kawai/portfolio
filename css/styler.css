@@ -4,7 +4,6 @@
 /*	Author: Marketify
 /*	This file is made for CURRENT TEMPLATE
 
-
 01) BASE
 02) SIDEBAR
 03) MOBILE MENU
@@ -21,9 +20,8 @@
 14) TOTOP
 15) MEDIA QUERIES (FOR SMALL DEVIVES)
 
-
 /*---------------------------------------------------*/
-/*	01) ARLO BASE
+/*	01) BASE
 /*---------------------------------------------------*/
 
 html {
@@ -205,9 +203,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 /*---------------------------------------------------*/
 /*	05) NAVBAR
 /*---------------------------------------------------*/
-/* .all_page {
-	padding-top: 70px;
-} */
+
 .custom-nav {
 	background-color: transparent;
 	padding: 20px 0px;
@@ -431,10 +427,6 @@ nav{
 	position: absolute;
 	z-index: 2;
 }
-/* .about_yukiphoto img {
-	height: 30%;
-	object-fit: cover;
-} */
 .about_short_contact_wrap li{
 	display: inline;
 }
@@ -589,9 +581,7 @@ nav{
 /*---------------------------------------------------*/
 /*	08) ORCHESTRA
 /*---------------------------------------------------*/
-/* .orchestra .title_holder{
-	padding-top: 50px;
-} */
+
 .orchestra_title h3 {
 	color: #fff;
 	margin-bottom: 40px;
@@ -600,15 +590,10 @@ nav{
 	margin: auto;
 }
 .orchestra_caption p {
-	/* margin-top: 60px; */
 	font-size: 1em;
 	color: #fff;
 	padding-bottom: 60px;
 }
-/* .orchestra_caption img{
-	float: right;
-} */
-
 .yuki_wrappage{
 	width: 100%;
 	height: 100vh;
@@ -663,7 +648,6 @@ nav{
 	float: left;
 	padding-top: 80px;
 }
-
 .yuki_favorite .favorite_box{
 	width: 100%;
 	height: auto;
@@ -673,7 +657,6 @@ nav{
 	position: relative;
 	margin: 20px 0;
 }
-
 .yuki_favorite .favorite_box .favorite_item{
 	width: 100%;
 	height: auto;
@@ -740,15 +723,6 @@ nav{
 	float: left;
 	padding-top: 90px;
 }
-/* .show:has()
-.inner{
-	margin-bottom: 50px;
-} */
-/* .collapse:has(.show)
-.special_skill ul li{
-	margin-bottom: 50px;
-} */
-
 .special_skill .skill_inner ul{
 	margin: 0px 0px 0px -50px;
 	list-style-type: none;
@@ -946,15 +920,9 @@ nav{
 .thoughts_rightbox .image2{
 	padding-top: 15px;
 }
-/* .image2{
-	margin-top: 30px;
-} */
 .thoughts_rightbox span{
 	color: #af3b3f;
 }
-/* .thoughts_rightbox p{
-	font-size: .8em;
-} */
 
 /*---------------------------------------------------*/
 /*	12) ARLO CONTACT
@@ -975,23 +943,6 @@ nav{
 	float: left;
 	padding-top: 90px;
 }
-/* .yuki_contact .short_list{
-	width: 100%;
-	height: auto;
-	clear: both;
-	float: left;
-}
-.yuki_contact .short_list ul{
-	margin: 0px 0px 0px -50px;
-	list-style-type: none;
-}
-.yuki_contact .short_list ul li{
-	margin: 0px 0px 50px 0px;
-	float: left;
-	width: 33.3333%;
-	padding-left: 50px;
-
-} */
 .yuki_contact .short_list ul li .svg{
 	width: 25px;
 	height: 25px;
@@ -1053,16 +1004,10 @@ nav{
 .details .nav-link{
 	padding: 0px;
 }
-/* .details {
-	width: 50%;
-} */
 .details a{
 	display: inline-block;
 	color: #6f6f6f;
 }
-/* .evaluation {
-	margin: auto;
-} */
 .tool p {
 	font-size: 14px;
 	font-weight: normal;
@@ -1071,12 +1016,9 @@ nav{
 	display: inline-block;
 }
 .evaluation {
-	/* width: 75%; */
 	display: block;
 	margin: auto;
 	padding-top: 40px;
-	/* margin-top: 50px; */
-	/* margin-bottom: 50px; */
 }
 .comment_button a{
 	color: #fff;
@@ -1084,7 +1026,6 @@ nav{
 .yuki_contact p{
 	font-family: 'Allura', sans-serif;
 }
-
 .yuki_contact .fields ul{
 	margin: 0px 0px 0px -30px;
 	list-style-type: none;
@@ -1094,13 +1035,8 @@ nav{
 	margin: 0px 0px 10px 0px;
 	padding-left: 30px;
 	float: left;
-	
 }
-/* .yuki_contact .fields .sending-comment {
-	display: none;
-} */
 .yuki_contact .fields ul li input{
-	/* width: 100%; */
 	border: 1px solid rgba(0,0,0,.2);
 	background-color: #fff;
 }
@@ -1148,12 +1084,9 @@ nav{
 .fields{
 	padding-bottom: 50px;
 }
-
-
 /*---------------------------------------------------*/
 /*	13) FOOTER
 /*---------------------------------------------------*/
-
 .yuki_footer{
 	width: 100%;
 	height: auto;
@@ -1180,7 +1113,6 @@ nav{
 	padding: 0px 10px;
 	margin: auto;
 	border-radius: 50%;
-
 }
 .yuki_footer .footer_inner .copy p a{
 	text-decoration: none;
@@ -1222,15 +1154,12 @@ nav{
 	z-index: 2;
 }
 
-
 /*---------------------------------------------------*/
 /*	21) ARLO MEDIA QUERIES (FOR SMALL DEVIVES)
 /*---------------------------------------------------*/
 
 @media (max-width: 1600px) {
-	/* .arlo_tm_leftpart{width: 360px;} */
 	.all_page{padding-left: 0px;}
-	/* .arlo_tm_leftpart .inner .menu ul li a{padding: 10px 0px;} */
 	body.rtl .all_page{padding-right: 360px;}
 	.orchestra .title_holder {padding-top: 80px;}
 }
@@ -1245,8 +1174,6 @@ nav{
 	.arlo_tm_pricing .pricing_inner > ul > li{width: 50%;}
 	.yuki_favorite .favorite_box ul li{width: 50%;}
 	.special_skill .skill_inner ul li{width: 50%;}
-
-	/* .thoughts .thoughts_leftbox .yuki3{float: left;} */
 }
 @media (max-width: 1040px) {
 	/* .arlo_tm_leftpart{display: none;} */
@@ -1262,26 +1189,23 @@ nav{
 	.arlo_tm_progress_wrap .progress_wrap_inner{flex-direction: column;}
 	.arlo_tm_progress_wrap .progress_wrap_inner .left{padding-right: 0px;width: 100%;margin-bottom: 50px;}
 	.arlo_tm_progress_wrap .right{padding-left: 0px;width: 100%;}
-	/* .arlo_tm_testimonial .testimonial_bg .image{display: none;}
-	.arlo_tm_testimonial .testimonial_bg .overlay{background-color: #000;}
-	.arlo_tm_popup_news .closer{top: 10px;right: 10px;} */
 	.person .graph{padding-top: 30px;}
 	.person .person_caption p{font-size: 14px;width: 90%;}
 	.person .person_caption img{width: 50%;height:40%;text-align: center;margin: 15px;}
 	.thoughts .thoughts_rightbox {font-size: 14px;width: 90%;margin: auto;}
-	/* .thoughts_leftbox .yuki2{margin-top: 70px;} */
 	.thoughts_rightbox img {width: 70%;}
-	.thoughts .thoughts_leftbox img{display: inline-block;width: 35%;margin:30px;padding:0;float: left;}
 	body.rtl .all_page{padding-right: 0px;}
 	body.rtl .arlo_tm_progress_wrap .progress_wrap_inner .left{padding-left: 0px;}
 	body.rtl .arlo_tm_progress_wrap .right{padding-right: 0px;}
 	.arlo_tm_preloader{display: none;}
 	.yuki_favorite_titles{display: none;}
 	.arlo_tm_intro_mainpart .main_list ul li{width: 50%;}
-		.special_skill .skill_inner ul li .inner .details img{width: 100%;object-fit: cover;}
+	.special_skill .skill_inner ul li .inner .details img{width: 100%;object-fit: cover;}
+}
+@media (max-width: 992px) {
+	.thoughts .thoughts_leftbox img{display: inline-block;width: 35%;margin:30px;padding:0;float: left;}
 }
 @media (max-width: 768px) {
-	/* .yuki_header .hero_content .name_holder h3{font-size: 30px;} */
 	.yuki_header .hero_content .text_typing p span{font-size: 24px;}
 	.yuki_about .about_short_contact_wrap ul li{padding-left: 30px;width: 100%;}
 	.yuki_about .about_short_contact_wrap ul{margin: 0px;}
@@ -1304,15 +1228,12 @@ nav{
 	.person .person_caption {padding-top: 50px;}
 	.person .person_caption p{width: 90%;margin: auto;}
 	.person .person_caption img {display: none;}
-	/* .thoughts .thoughts_leftbox{width: 80%;margin: auto;}
-	.thoughts .thoughts_leftbox img{width: 60%;} */
 	.thoughts .thoughts_rightbox .image2{padding-top: 30px;}
 	.thoughts .thoughts_rightbox {font-size: 14px;width: 90%;margin: auto;}
 	.yuki_contact .short_list ul li{width: 100%;padding-left: 0px;margin-bottom: 30px;}
 	.yuki_contact .short_list ul{margin: 0px;}
 	.yuki_contact .fields ul li{width: 100%;padding-left: 0px;}
 	.yuki_contact .fields ul{margin: 0px;}
-	/* .yuki_contact .tool{width: 100%;margin: auto;} */
 	body.rtl .arlo_tm_testimonial .testimonial_content .content_inner{padding: 60px 40px 64px 40px;}
 	body.rtl .arlo_tm_testimonial .testimonial_content .content_inner .icon{right: 0px;}
 	.arlo_tm_intro_mainpart .main_list ul li{width: 100%;padding-left: 0px;}
