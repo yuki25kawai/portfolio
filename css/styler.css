@@ -4,24 +4,21 @@
 /*	Author: Marketify
 /*	This file is made for CURRENT TEMPLATE
 
-01) BASE
-02) SIDEBAR
-03) MOBILE MENU
-04) RIGHTPART
-05) HERO
-06) ABOUT
-07) ORCHESTRA
-08) PORTFOLIO
-09) SPECIAL SKILL
-10) PERSONALITY
-11) THOUGHTS
-12) CONTACT
-13) FOOTER
-14) TOTOP
-15) MEDIA QUERIES (FOR SMALL DEVIVES)
+1) BASE
+2) RIGHTPART
+3) NAVBAR
+4) ABOUT
+5) ORCHESTRA
+6) PORTFOLIO
+7) SPECIAL SKILL
+8) PERSONALITY
+9) THOUGHTS
+10) CONTACT
+11) FOOTER
+12) MEDIA QUERIES (FOR SMALL DEVIVES)
 
 /*---------------------------------------------------*/
-/*	01) BASE
+/*	1) BASE
 /*---------------------------------------------------*/
 
 html {
@@ -172,11 +169,8 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 .arlo_tm_preloader.loaded:before, 
 .arlo_tm_preloader.loaded:after{height: 0%;}
 
-
-
-
 /*---------------------------------------------------*/
-/*	04) RIGHTPART
+/*	2) RIGHTPART
 /*---------------------------------------------------*/
 
 .all_page{
@@ -201,7 +195,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 }
 
 /*---------------------------------------------------*/
-/*	05) NAVBAR
+/*	3) NAVBAR
 /*---------------------------------------------------*/
 
 .custom-nav {
@@ -230,11 +224,9 @@ nav{
 	font-weight: 500;
 	padding-right: 8px;
 }
-
 .custom-nav .navbar-brand {
 	color: #fff !important;
 }
-
 .custom-nav .navbar-toggler {
 	color: #fff;
 	font-size: 20px;
@@ -248,20 +240,18 @@ nav{
 .custom-nav .navbar-toggler:active{
 	border: none;
 }
-
 .custom-nav.stickyadd {
 	background-color: #fff !important;
 	padding: 15px 0px;
 }
-
 .custom-nav.stickyadd .navbar-nav li a {
 	color: #6f6f6f !important;
 }
 .stickyadd button{
 	background-color: #6f6f6f !important;
 	border-radius: 10%;
-	/* color: #6f6f6f; */
 }
+/* navbarの色を変える */
 .navbar-toggler .navbar-toggler-icon {
 	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 	
@@ -360,7 +350,7 @@ nav{
 	margin-left: -21px;
 	z-index: 55;
 }
-.top_wrap.bounce {
+/* .top_wrap.bounce {
   -webkit-animation: bounce 2s infinite;
   animation: bounce 2s infinite; }
 
@@ -384,7 +374,7 @@ nav{
     transform: translateY(-30px); }
   60% {
     -webkit-transform: translateY(-15px);
-    transform: translateY(-15px); } }
+    transform: translateY(-15px); } } */
 .arlo_tm_arrow_wrap a{
 	text-decoration: none;
 	color: #fff;
@@ -392,7 +382,7 @@ nav{
 }
 
 /*---------------------------------------------------*/
-/*	06) ABOUT
+/*	4) ABOUT
 /*---------------------------------------------------*/
 
 .yuki_about_wrap_all{
@@ -462,9 +452,6 @@ nav{
 	color: #cd853f;
 	font-style: italic;
 }
-/* .yuki_about .about_title h3 {
-	font-size: 80px;
-} */
 .yuki_about .about_title span{
 	color: #cd853f;
 }
@@ -566,20 +553,18 @@ nav{
 	float: left;
 }
 .title_holder h3{
-	/* text-transform: uppercase; */
 	font-weight: 700;
 	font-size: 35px;
 }
 .title_holder span{
 	display: inline-block;
 	font-size: 18px;
-	/* text-transform: uppercase; */
 	color: #cd853f;
 	font-weight: 500;
 }
 
 /*---------------------------------------------------*/
-/*	08) ORCHESTRA
+/*	5) ORCHESTRA
 /*---------------------------------------------------*/
 
 .orchestra_title h3 {
@@ -630,7 +615,7 @@ nav{
 }
 
 /*---------------------------------------------------*/
-/*	08) FAVORITE
+/*	6) FAVORITE
 /*---------------------------------------------------*/
 
 .yuki_favorite{
@@ -705,7 +690,7 @@ nav{
 	background: rgba(38, 40, 43, 0.6);
 }
 /*---------------------------------------------------*/
-/*	9) SPECIAL SKILLS
+/*	7) SPECIAL SKILLS
 /*---------------------------------------------------*/
 
 .special_skill{
@@ -876,7 +861,7 @@ nav{
 }
 
 /*---------------------------------------------------*/
-/*	10) PERSONALITY
+/*	8) PERSONALITY
 /*---------------------------------------------------*/
 .person .title_holder {
 	margin-bottom: 50px;
@@ -893,7 +878,7 @@ nav{
 	border-radius: 50%;
 }
 /*---------------------------------------------------*/
-/*	11) THOUGHTS
+/*	9) THOUGHTS
 /*---------------------------------------------------*/
 .thoughts {
 	padding-bottom: 120px;
@@ -921,11 +906,11 @@ nav{
 	padding-top: 15px;
 }
 .thoughts_rightbox span{
-	color: #af3b3f;
+	color: #e2264d;
 }
 
 /*---------------------------------------------------*/
-/*	12) ARLO CONTACT
+/*	10) CONTACT
 /*---------------------------------------------------*/
 
 .yuki_contact{
@@ -997,6 +982,12 @@ nav{
 	height: 50px;
 	font-size: 50px;
 }
+.yuki_contact .title_holder p {
+	font-size: 18px;
+}
+.yuki_contact .title_holder p span{
+	color: #e2264d;;
+}
 .likeicon-fa-heart.heart{
 	animation: heartAnimation .2s;
 	color: #e2264d;
@@ -1061,7 +1052,6 @@ nav{
 }
 .send_button:hover {
 	color: #fff;
-	/* opacity: 0.7; */
 }
 .send_button:active {
 	opacity: 1;
@@ -1085,7 +1075,7 @@ nav{
 	padding-bottom: 50px;
 }
 /*---------------------------------------------------*/
-/*	13) FOOTER
+/*	11) FOOTER
 /*---------------------------------------------------*/
 .yuki_footer{
 	width: 100%;
@@ -1127,20 +1117,14 @@ nav{
 	        transition: all .3s ease;
 }
 .yuki_footer .footer_inner .copy p a:hover{border-bottom-color: #fff;}
-
-/*---------------------------------------------------*/
-/*	15) ARLO TOTOP
-/*---------------------------------------------------*/
-
 .yuki_footer .top{line-height: 1;}
 .arlo_tm_totop{
 	position: relative;
 	overflow: hidden;
 	background-color: #cd853f;
-    padding: 22px;
-    border-radius: 3px;
-    display: inline-block;
-
+	padding: 22px;
+	border-radius: 3px;
+	display: inline-block;
 }
 .arlo_tm_totop:after{
 	width: 0px;
@@ -1155,7 +1139,7 @@ nav{
 }
 
 /*---------------------------------------------------*/
-/*	21) ARLO MEDIA QUERIES (FOR SMALL DEVIVES)
+/*	12) MEDIA QUERIES (FOR SMALL DEVIVES)
 /*---------------------------------------------------*/
 
 @media (max-width: 1600px) {
@@ -1176,7 +1160,6 @@ nav{
 	.special_skill .skill_inner ul li{width: 50%;}
 }
 @media (max-width: 1040px) {
-	/* .arlo_tm_leftpart{display: none;} */
 	.all_page .navbar-collapse ul li a{font-size: 14px;}
 	.all_page{padding-left: 0px;}
 	.yuki_about .about_inner .about_title h3{font-size: 30px;}
@@ -1202,7 +1185,7 @@ nav{
 	.arlo_tm_intro_mainpart .main_list ul li{width: 50%;}
 	.special_skill .skill_inner ul li .inner .details img{width: 100%;object-fit: cover;}
 }
-@media (max-width: 992px) {
+@media (max-width: 991px) {
 	.thoughts .thoughts_leftbox img{display: inline-block;width: 35%;margin:30px;padding:0;float: left;}
 }
 @media (max-width: 768px) {
