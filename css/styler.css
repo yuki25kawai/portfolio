@@ -1143,6 +1143,7 @@ nav{
 /*---------------------------------------------------*/
 
 @media (max-width: 1600px) {
+	.overlay_slider .vegas-slide-inner{height: 100%;object-fit: cover;}
 	.all_page{padding-left: 0px;}
 	body.rtl .all_page{padding-right: 360px;}
 	.orchestra .title_holder {padding-top: 80px;}
