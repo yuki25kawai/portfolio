@@ -1226,7 +1226,7 @@ nav{
 	.arlo_tm_intro_mainpart .main_list{padding: 0px 20px;}
 	.orchestra_caption p{width: 80%; margin: auto;font-size: 12px;padding-bottom: 20px;}
 	.about_inner .about_text p{width: 90%;margin: auto;font-size: 12px;}
-	.about_inner .about_short_contact_wrap{display:inline-block;width: 80%;margin: auto;font-size: 12px;}
+	.about_inner .about_short_contact_wrap{font-size: 12px;}
 }
 @media (max-width: 575px) {
 	.about_inner .about_short_contact_wrap{font-size: 10px;}
