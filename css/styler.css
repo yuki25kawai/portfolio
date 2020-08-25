@@ -1196,7 +1196,7 @@ nav{
 	.yuki_about .about_yukiphoto img{width: 70%;object-fit: cover;}
 	.yuki_about .about_inner .about_title h3{font-size: 30px;}
 	.yuki_about p{font-size: 14px;}
-	.orchestra .title_holder{padding-top: 100px;}
+	.orchestra .title_holder{padding-top: 40px;}
 	.orchestra_title{margin-top:40px;margin-bottom: 0px;}
 	.orchestra_caption p{width: 80%; margin: auto;}
 	.yuki_favorite .favorite_box ul li{width: 100%;padding-left: 0px;}
@@ -1227,6 +1227,9 @@ nav{
 	.orchestra_caption p{width: 80%; margin: auto;font-size: 12px;padding-bottom: 20px;}
 	.about_inner .about_text p{width: 90%;margin: auto;font-size: 12px;}
 	.about_inner .about_short_contact_wrap{display:inline-block;width: 80%;margin: auto;font-size: 12px;}
+}
+@media (max-width: 575px) {
+	.about_inner .about_short_contact_wrap{font-size: 10px;}
 }
 @media (max-width: 480px) {
 	.yuki_header .hero_content .name_holder h3{font-size: 35px;}
