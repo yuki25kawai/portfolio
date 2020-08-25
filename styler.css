@@ -20,7 +20,7 @@
 /*---------------------------------------------------*/
 /*	1) BASE
 /*---------------------------------------------------*/
-
+.overlay_slider .vegas-slide-inner{height: 100%;object-fit: cover;}
 html {
 	overflow-x: hidden;
 	padding: 0px;
@@ -178,7 +178,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	height: auto;
 	clear: both;
 	float: left;
-	padding-left: 400px;
+	/* padding-left: 400px; */
 	
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
@@ -186,7 +186,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.all_page.opened{padding-left: 0px;}
+/* .all_page.opened{padding-left: 0px;} */
 .all_page .rightpart_inner{
 	width: 100%;
 	height: auto;
@@ -1143,8 +1143,9 @@ nav{
 /*---------------------------------------------------*/
 
 @media (max-width: 1600px) {
+
 	.all_page{padding-left: 0px;}
-	body.rtl .all_page{padding-right: 360px;}
+	/* body.rtl .all_page{padding-right: 360px;} */
 	.orchestra .title_holder {padding-top: 80px;}
 }
 @media (max-width: 1400px) {
@@ -1154,8 +1155,8 @@ nav{
 	body.rtl .yuki_about .rightbox{padding-right: 0px;}
 }
 @media (max-width: 1200px) {
-	.arlo_tm_services .service_inner ul li{width: 50%;}
-	.arlo_tm_pricing .pricing_inner > ul > li{width: 50%;}
+	/* .arlo_tm_services .service_inner ul li{width: 50%;}
+	.arlo_tm_pricing .pricing_inner > ul > li{width: 50%;} */
 	.yuki_favorite .favorite_box ul li{width: 50%;}
 	.special_skill .skill_inner ul li{width: 50%;}
 }
@@ -1186,7 +1187,7 @@ nav{
 	.special_skill .skill_inner ul li .inner .details img{width: 100%;object-fit: cover;}
 }
 @media (max-width: 991px) {
-	.thoughts .thoughts_leftbox img{display: inline-block;width: 35%;margin:30px;padding:0;float: left;}
+	.thoughts .thoughts_leftbox img{display: inline-block;width: 35%;margin:30px;padding:0;float:left;}
 }
 @media (max-width: 768px) {
 	.yuki_header .hero_content .text_typing p span{font-size: 24px;}
@@ -1195,7 +1196,7 @@ nav{
 	.yuki_about .about_yukiphoto img{width: 70%;object-fit: cover;}
 	.yuki_about .about_inner .about_title h3{font-size: 30px;}
 	.yuki_about p{font-size: 14px;}
-	.orchestra .title_holder{padding-top: 100px;}
+	.orchestra .title_holder{padding-top: 40px;}
 	.orchestra_title{margin-top:40px;margin-bottom: 0px;}
 	.orchestra_caption p{width: 80%; margin: auto;}
 	.yuki_favorite .favorite_box ul li{width: 100%;padding-left: 0px;}
@@ -1213,6 +1214,7 @@ nav{
 	.person .person_caption img {display: none;}
 	.thoughts .thoughts_rightbox .image2{padding-top: 30px;}
 	.thoughts .thoughts_rightbox {font-size: 14px;width: 90%;margin: auto;}
+	.thoughts .thoughts_leftbox img{display: inline-block;width: 35%;margin:15px;padding:0;}
 	.yuki_contact .short_list ul li{width: 100%;padding-left: 0px;margin-bottom: 30px;}
 	.yuki_contact .short_list ul{margin: 0px;}
 	.yuki_contact .fields ul li{width: 100%;padding-left: 0px;}
@@ -1222,9 +1224,15 @@ nav{
 	.arlo_tm_intro_mainpart .main_list ul li{width: 100%;padding-left: 0px;}
 	.arlo_tm_intro_mainpart .main_list ul{margin: 0px;}
 	.arlo_tm_intro_mainpart .main_list{padding: 0px 20px;}
+	.orchestra_caption p{width: 80%; margin: auto;font-size: 12px;padding-bottom: 20px;}
+	.about_inner .about_text p{width: 90%;margin: auto;font-size: 12px;}
+	.about_inner .about_short_contact_wrap{display:inline-block;width: 80%;margin: auto;font-size: 12px;}
+}
+@media (max-width: 575px) {
+	.about_inner .about_short_contact_wrap{font-size: 10px;}
 }
 @media (max-width: 480px) {
 	.yuki_header .hero_content .name_holder h3{font-size: 35px;}
 	.orchestra_title span{padding-top:80px;margin-bottom: 0px;}
-	.orchestra_caption p{width: 80%; margin: auto;}
+	
 }	
