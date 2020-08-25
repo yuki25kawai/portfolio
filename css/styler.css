@@ -1187,7 +1187,7 @@ nav{
 	.special_skill .skill_inner ul li .inner .details img{width: 100%;object-fit: cover;}
 }
 @media (max-width: 991px) {
-	.thoughts .thoughts_leftbox img{display: inline-block;width: 35%;margin:15px;padding:0;float: left;}
+	.thoughts .thoughts_leftbox img{display: inline-block;width: 35%;margin:30px;padding:0;float:left;}
 }
 @media (max-width: 768px) {
 	.yuki_header .hero_content .text_typing p span{font-size: 24px;}
@@ -1214,6 +1214,7 @@ nav{
 	.person .person_caption img {display: none;}
 	.thoughts .thoughts_rightbox .image2{padding-top: 30px;}
 	.thoughts .thoughts_rightbox {font-size: 14px;width: 90%;margin: auto;}
+	.thoughts .thoughts_leftbox img{display: inline-block;width: 35%;margin:15px;padding:0;}
 	.yuki_contact .short_list ul li{width: 100%;padding-left: 0px;margin-bottom: 30px;}
 	.yuki_contact .short_list ul{margin: 0px;}
 	.yuki_contact .fields ul li{width: 100%;padding-left: 0px;}
@@ -1223,7 +1224,7 @@ nav{
 	.arlo_tm_intro_mainpart .main_list ul li{width: 100%;padding-left: 0px;}
 	.arlo_tm_intro_mainpart .main_list ul{margin: 0px;}
 	.arlo_tm_intro_mainpart .main_list{padding: 0px 20px;}
-	.orchestra_caption p{width: 80%; margin: auto;font-size: 12px;}
+	.orchestra_caption p{width: 80%; margin: auto;font-size: 12px;padding-bottom: 20px;}
 	.about_inner .about_text p{width: 90%;margin: auto;font-size: 12px;}
 	.about_inner .about_short_contact_wrap{display:inline-block;width: 80%;margin: auto;font-size: 12px;}
 }
