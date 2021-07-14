@@ -16,3 +16,7 @@ margin-bottom: 2rem;
 .fixed-background p {
   margin-top: 1.5rem;
 }
+.person {
+  background-image: url(image/personality/umi.jpg);
+  /* background-color: rgba(255, 255, 255, 0.5); */
+}

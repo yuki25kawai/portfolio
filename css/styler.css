@@ -486,8 +486,8 @@ nav{
 }
 .yuki_about .about_short_contact_wrap ul li a{
 	text-decoration: none;
-	color: #000;
-    position: relative;
+	color: #666;
+  position: relative;
 	border-bottom: 1px solid transparent;
 	
     -webkit-transition: all .3s ease;
@@ -694,6 +694,7 @@ nav{
 /*---------------------------------------------------*/
 
 .special_skill{
+	/* background-color: #fcf9f5; */
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -868,7 +869,9 @@ nav{
 }
 .person{
 	background-color: #fcf9f5;
+	/* background-color: #fff; */
 	padding: 140px 0px 150px 0px;
+	background-image: url(image/personality/umi.jpg);
 }
 .person_caption img{
 	height: 200px;
